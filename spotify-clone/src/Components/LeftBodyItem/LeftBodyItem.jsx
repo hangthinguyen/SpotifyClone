@@ -1,11 +1,13 @@
 import './LeftBodyItem.css';
-import Icon from '../Icon/Icon'
+import ItemName from '../ItemName/ItemName';
 
-export default function LeftBodyItem() {
+export default function LeftBodyItem(props) {
     return (
         <div>
-            <Icon />
-            <ItemName />
+            <a href={props.link} className='item'>
+                <p className='icon'>{props.icon}</p>
+                <ItemName name={props.name} className='name'/>
+            </a>
         </div>
     )
 }

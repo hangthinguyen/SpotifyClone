@@ -1,8 +1,13 @@
 import SpotifyLogo from '../SpotifyLogo/SpotifyLogo';
+import BottomLeft from '../BottomLeft/BottomLeft';
 import './LeftBody.css';
 
 export default function LeftBody () {
     return (
-            <SpotifyLogo className='left-body'/>
+        <div className='left-body'>
+            <SpotifyLogo/>
+            <BottomLeft />
+        </div>
     )
+        
 }
