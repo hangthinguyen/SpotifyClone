@@ -3,10 +3,14 @@
     align-items: center;
     background-color: black;
     color: gray;
+    height: 24px;
+    padding: 10px 0;
 }
 
 .icon {
     font-size: 24px;
+    width: 24px;
+    padding-right: 16px;
 }
 
 a:hover {

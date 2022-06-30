@@ -1,7 +1,7 @@
+import './ItemName.css';
 
-
-export default function ItemName(props) {
+export default function ItemName({name}) {
     return (
-        <p>{props.name}</p>
+        <p className="name">{name}</p>
     )
 }

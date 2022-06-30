@@ -3,8 +3,8 @@ import './App.css';
 
 export default function App() {
     return (
-        <div>
-            <Body className='body'/>
+        <div className="app">
+            <Body/>
         </div>
     )
 }

@@ -43,8 +43,14 @@ export default function BottomLeft () {
     const ListItems = items.map((item) => <LeftBodyItem key={item.id} link={item.link} icon={item.icon} name={item.name}></LeftBodyItem>)
 
     return (
-        <div className='Items'>
-            {ListItems}
+        <div className='items'>
+            <div>
+                {ListItems}
+            </div>
+            <div className='left-footer'>
+                <a href="https://www.spotify.com/us/legal/cookies-policy/" className='cookies'>Cookies</a>
+                <a href="https://www.spotify.com/us/legal/privacy-policy/" className='privacy'>Privacy</a>
+            </div>
         </div>
     )
 }
