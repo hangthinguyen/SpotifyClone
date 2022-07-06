@@ -1,4 +1,7 @@
 .left-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 12px 24px 0px;
     background-color: black;
     height: 100%;

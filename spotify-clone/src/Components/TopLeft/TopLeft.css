@@ -1,6 +1,6 @@
-.app {
-    height: 100%;
+.items {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+

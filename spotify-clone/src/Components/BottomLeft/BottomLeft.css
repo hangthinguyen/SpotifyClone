@@ -1,29 +1,21 @@
-.items {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-}
-
-.left-footer {
-    display: flex;
-    flex-direction: column;
-    font-size: 11px;
-    height: 10px;
-    margin: 32px 0px;
-}
-
 .cookies {
     padding-bottom: 14px;
-    color: gray;
+    color: #b3b3b3;
 }
 
 .cookies:hover {
     text-decoration: underline;
 }
 .privacy {
-    color: gray;
+    color: #b3b3b3;
 }
 .privacy:hover {
     text-decoration: underline;
+}
+
+.left-footer {
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    margin: 45px 0px;
 }
