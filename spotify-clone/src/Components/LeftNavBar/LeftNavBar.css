@@ -1,13 +1,32 @@
-.fa-circle-left{
-    font-size: 32px;
-    background-color: #a7a7a7;
-    color: #090909;
+.circle-left, .circle-right{
+    font-size: 22px;
+    color: #b3b3b3;
 }
-
-.fa-circle-left:hover{
+.circle-left:hover{
     cursor: not-allowed;
 }
-.fa-circle-right:hover{
+.circle-right:hover{
     cursor: not-allowed;
 }
 
+.left-arrow-container, .right-arrow-container {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 1px solid red;
+}
+
+.left-navbar {
+    display: flex;
+}
+
+.right-arrow-container {
+    margin-left: 16px;
+}
+.left-arrow-container {
+    margin-left: 35px;
+}
