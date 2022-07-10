@@ -1,0 +1,13 @@
+.fa-circle-left{
+    font-size: 32px;
+    background-color: #a7a7a7;
+    color: #090909;
+}
+
+.fa-circle-left:hover{
+    cursor: not-allowed;
+}
+.fa-circle-right:hover{
+    cursor: not-allowed;
+}
+
