@@ -1,0 +1,46 @@
+.card {
+    width: 24.3%;
+    background-image: linear-gradient(rgb(18,18,18, 1), rgb(18,18,18,0.8));
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.card:hover {
+    background-color: rgb(40, 40, 40);
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    box-shadow: -5px 5px 20px black;
+    margin-bottom: 16px;
+}
+
+.card .play-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    background-color: #1ed760;
+    position: absolute;
+    bottom: 27px;
+    right: 10px;
+    border: none;
+    border-radius: 50%;
+}
+
+.triangle-btn {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+}
+
+.img-container {
+    position: relative;
+}
+
+.text {
+    overflow: hidden;
+}

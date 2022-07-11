@@ -6,27 +6,29 @@ export default function Cards() {
     const [cards, setCard] = useState([
         {
             id: 1,
+            categoryLink: 'https://open.spotify.com/playlist/37i9dQZF1DXcF6B6QPhFDv',
             image: 'https://i.scdn.co/image/ab67706f000000026f88dda5e416d45dfe7ef2b2',
             songStyle: 'Rock This',
             songDescription: 'The latest from Bring Me The Horizon along with the top Rock songs you need to know.'
         },
         {
             id: 2,
-            image: 'https://i.scdn.co/image/ab67706f000000026f88dda5e416d45dfe7ef2b2',
-            songStyle: 'Rock This',
-            songDescription: 'The latest from Bring Me The Horizon along with the top Rock songs you need to know.'
+            categoryLink: 'https://open.spotify.com/playlist/37i9dQZF1DX0kbJZpiYdZl',
+            image: 'https://i.scdn.co/image/ab67706f00000002a64aca2937d43bc2d1c20e86',
+            songStyle: 'Hot Hits USA',
+            songDescription: 'The hottest tracks in the United States. Cover: Doja Cat'
         },
         {   
             id: 3,
-            image: 'https://i.scdn.co/image/ab67706f000000026f88dda5e416d45dfe7ef2b2',
-            songStyle: 'Rock This',
-            songDescription: 'The latest from Bring Me The Horizon along with the top Rock songs you need to know.'
+            image: 'https://i.scdn.co/image/ab67706f00000002cb5257cdcf74accc2f6d37ac',
+            songStyle: 'Are & Be',
+            songDescription: 'The pulse of R&B music today.  Cover: Brent Faiyaz'
         },
         {
             id: 4,
-            image: 'https://i.scdn.co/image/ab67706f000000026f88dda5e416d45dfe7ef2b2',
-            songStyle: 'Rock This',
-            songDescription: 'The latest from Bring Me The Horizon along with the top Rock songs you need to know.'
+            image: 'https://i.scdn.co/image/ab67706f0000000200aab6df13c2acd9b9e64ced',
+            songStyle: 'Alt NOW',
+            songDescription: 'Metric along with the top Alternative songs of today.'
         }
     ])
 

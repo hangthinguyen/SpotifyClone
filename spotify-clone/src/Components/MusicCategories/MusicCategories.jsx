@@ -1,11 +1,11 @@
 import Cards from '../Cards/Cards';
 import './MusicCategories.css';
 
-export default function MusicCategories({titles, seeAllLinks}) {
+export default function MusicCategories({titleLink, title, seeAllLinks}) {
     return (
-        <div>
+        <div className='music-categories'>
             <div>
-                <h2>{titles}</h2>
+                <a href={titleLink}>{title} hello</a>
                 <a href={seeAllLinks}>See All</a>
             </div>
             <Cards/>
