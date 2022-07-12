@@ -17,7 +17,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    outline: 1px solid red;
 }
 
 .left-navbar {
@@ -26,7 +25,4 @@
 
 .right-arrow-container {
     margin-left: 16px;
-}
-.left-arrow-container {
-    margin-left: 35px;
 }

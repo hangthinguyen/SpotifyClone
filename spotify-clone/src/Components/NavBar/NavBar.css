@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     background-image: linear-gradient(rgba(0,0,0,.6), #0f0f0f);
-    height: 9%;
+    padding: 8px 24px;
     width: 100%;
+    box-sizing: border-box;
 }

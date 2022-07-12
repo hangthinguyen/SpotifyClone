@@ -29,6 +29,18 @@ export default function Cards() {
             image: 'https://i.scdn.co/image/ab67706f0000000200aab6df13c2acd9b9e64ced',
             songStyle: 'Alt NOW',
             songDescription: 'Metric along with the top Alternative songs of today.'
+        },
+        {
+            id: 5,
+            image: 'https://i.scdn.co/image/ab67706f00000002ad09e531ef8aab7c5ab55ec9',
+            songStyle: 'Viva Latino',
+            songDescription: `Today's top Latin hits, elevando nuestra música. Cover: Zion & Lennox, Maria Becerra`
+        },
+        {
+            id: 6,
+            image: 'https://i.scdn.co/image/ab67706f0000000200aab6df13c2acd9b9e64ced',
+            songStyle: 'Alt NOW',
+            songDescription: 'Metric along with the top Alternative songs of today.'
         }
     ])
 
