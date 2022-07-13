@@ -11,33 +11,28 @@ export default function ScrollingBody() {
         },
         {
             id: 2,
-            title: 'The state of music today',
-            seeAllLink: 'https://open.spotify.com/genre/programming-local-strategic-playlists'
+            title: 'Focus',
+            seeAllLink: 'https://open.spotify.com/genre/focus-home-shelf'
         },
         {
             id: 3,
-            title: 'The state of music today',
-            seeAllLink: 'https://open.spotify.com/genre/programming-local-strategic-playlists'
-        },
-        {
-            id: 4,
-            title: 'The state of music today',
-            seeAllLink: 'https://open.spotify.com/genre/programming-local-strategic-playlists'
+            title: 'Mood',
+            seeAllLink: 'https://open.spotify.com/genre/mood-home-wrapper'
         },
         {
             id: 5,
-            title: 'The state of music today',
-            seeAllLink: 'https://open.spotify.com/genre/programming-local-strategic-playlists'
+            title: 'Popular new releases',
+            seeAllLink: 'https://open.spotify.com/genre/NMF-PopularNewReleases'
         },
         {
             id: 6,
-            title: 'The state of music today',
-            seeAllLink: 'https://open.spotify.com/genre/programming-local-strategic-playlists'
+            title: 'Genre-bending blends',
+            seeAllLink: 'https://open.spotify.com/genre/dense-ginger-featured-playlists-no-friday'
         },
         {
             id: 7,
-            title: 'The state of music today',
-            seeAllLink: 'https://open.spotify.com/genre/programming-local-strategic-playlists'
+            title: 'Soundtrack your home',
+            seeAllLink: 'https://open.spotify.com/genre/at-home-playlists'
         }
     ])
 
