@@ -3,9 +3,9 @@ import TopLeft from '../TopLeft/TopLeft';
 import BottomLeft from '../BottomLeft/BottomLeft';
 import './LeftBody.css';
 
-export default function LeftBody () {
+export default function LeftBody ({style}) {
     return (
-            <div className='left-body'>
+            <div className='left-body' style={style}>
                 <div>
                     <SpotifyLogo/>
                     <TopLeft />

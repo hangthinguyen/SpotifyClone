@@ -1,4 +1,16 @@
 .body {
     display: flex;
     height: 100%;
+    overflow: hidden;
+}
+
+.resizer {
+    width: 2px;
+    height: 100%;
+}
+
+.resizer:hover {
+    background-color: gray;
+    width: 2px;
+    cursor: col-resize;
 }
