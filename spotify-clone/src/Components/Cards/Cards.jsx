@@ -47,11 +47,11 @@ export default function Cards({ scrollingBodyWidth }) {
     let filteredCards;
     const bodyWidth = document.querySelector('.body');
 
-    if (scrollingBodyWidth < 0.7 * bodyWidth?.clientWidth) {
+    if (scrollingBodyWidth < 0.5 * bodyWidth?.clientWidth) {
         filteredCards = cards.slice(0, 3);
-    } else if (scrollingBodyWidth < 0.8 * bodyWidth?.clientWidth) {
+    } else if (scrollingBodyWidth < 0.7 * bodyWidth?.clientWidth) {
         filteredCards = cards.slice(0, 4);
-    } else if (scrollingBodyWidth < 0.9 * bodyWidth?.clientWidth) {
+    } else if (scrollingBodyWidth < 0.8 * bodyWidth?.clientWidth) {
         filteredCards = cards.slice(0, 5);
     } else {
         filteredCards = cards;
