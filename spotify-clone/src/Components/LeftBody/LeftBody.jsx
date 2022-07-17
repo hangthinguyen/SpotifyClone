@@ -19,7 +19,7 @@ export default function LeftBody ({ onResize }) {
             <div className='left-body' style={{width: LeftBodyWidth ? LeftBodyWidth : 'auto'}}>
                 <div>
                     <SpotifyLogo/>
-                    <TopLeft />
+                    <TopLeft/>
                 </div>
                 <BottomLeft/>
             </div>

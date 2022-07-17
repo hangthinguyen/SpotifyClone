@@ -1,4 +1,4 @@
-import { FaSpotify } from "react-icons/fa";
+import { FaBorderNone, FaSpotify } from "react-icons/fa";
 import { FaRegRegistered } from "react-icons/fa";
 import './SpotifyLogo.css';
 

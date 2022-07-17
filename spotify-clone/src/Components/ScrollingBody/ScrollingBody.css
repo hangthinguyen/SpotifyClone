@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
-    background-image: #121212;
+    background-color: #121212;
     box-sizing: border-box;
     padding: 24px 32px;
     overflow: scroll;

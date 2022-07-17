@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import MusicCategories from '../MusicCategories/MusicCategories';
+import Footer from '../Footer/Footer';
 import './ScrollingBody.css';
 
 export default function ScrollingBody({ scrollingBodyWidth }) {
@@ -40,6 +41,7 @@ export default function ScrollingBody({ scrollingBodyWidth }) {
     return (
         <div className='scrolling-body'>
             {CategoryList}
+            <Footer/>
         </div>
     )
 }
