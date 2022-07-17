@@ -1,21 +1,25 @@
-import { useState } from 'react';
+import { useState} from 'react';
 import LeftBody from '../LeftBody/LeftBody';
-import RightBody from '../RightBody/RightBody';
+import NavBar from '../NavBar/NavBar';
+import ScrollingBody from '../ScrollingBody/ScrollingBody';
 import './Body.css';
-export default function Body () {
-    const [LeftBodyWidth, setLeftBodyWidth] = useState();
 
-    function handleDragger(e) {
-        if (e.clientX) {
-            setLeftBodyWidth(e.clientX)
+export default function Body () {
+    const [scrollingBodyWidth, setScrollingBodyWidth] = useState(null);
+
+    function handleResize() {
+        const scrollingBodyEl = document.querySelector('.scrolling-body');
+        
+        if (scrollingBodyEl?.clientWidth !== scrollingBodyWidth) {
+            setScrollingBodyWidth(scrollingBodyEl?.clientWidth)
         }
     }
-
+    
     return (
         <div className='body'>
-            <LeftBody style={{width: LeftBodyWidth ? LeftBodyWidth : 'auto'}}/> 
-            <div draggable className='resizer' onDrag={handleDragger}></div>
-            <RightBody />
+            <LeftBody onResize={handleResize}/> 
+            <NavBar/>
+            <ScrollingBody scrollingBodyWidth={scrollingBodyWidth} />
         </div>       
     )
 }

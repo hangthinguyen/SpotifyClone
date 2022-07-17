@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Card from '../Card/Card'
 import './Cards.css'
 
-export default function Cards() {
+export default function Cards({ scrollingBodyWidth }) {
     const [cards, setCard] = useState([
         {
             id: 1,
@@ -42,9 +42,21 @@ export default function Cards() {
             songStyle: 'Alt NOW',
             songDescription: 'Metric along with the top Alternative songs of today.'
         }
-    ])
+    ]);
 
-    const cardsList = cards.map((card) => <Card key={card.id} image={card.image} songStyle={card.songStyle} songDescription={card.songDescription}/>)
+    let filteredCards;
+
+    if (scrollingBodyWidth < 700) {
+        filteredCards = cards.slice(0, 3);
+    } else if (scrollingBodyWidth < 800) {
+        filteredCards = cards.slice(0, 4);
+    } else if (scrollingBodyWidth < 900) {
+        filteredCards = cards.slice(0, 5);
+    } else {
+        filteredCards = cards;
+    }
+
+    const cardsList = filteredCards.map((card) => <Card key={card.id} image={card.image} songStyle={card.songStyle} songDescription={card.songDescription}/>)
     return (
         <div className='cards'>
             {cardsList}

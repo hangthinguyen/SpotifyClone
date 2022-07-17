@@ -26,3 +26,7 @@
 .title:hover, .see-all-link:hover {
     text-decoration: underline;
 }
+
+.see-all-link:hover {
+    color: #b3b3b3;
+}

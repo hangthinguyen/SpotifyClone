@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
-    background-image: linear-gradient(#1e1e1e, #121212);
+    background-image: #121212;
     box-sizing: border-box;
     padding: 24px 32px;
-    margin-top: 64px;
+    overflow: scroll;
 }

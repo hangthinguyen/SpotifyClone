@@ -3,11 +3,6 @@
     gap: 20px;
 }
 
-@media (max-width: 1008px) {
-    .card:last-child {
-        display: none;
-    }
-}
 /* .card {
     margin-right: 20px;
 }

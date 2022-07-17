@@ -2,7 +2,7 @@ import { useState } from 'react';
 import MusicCategories from '../MusicCategories/MusicCategories';
 import './ScrollingBody.css';
 
-export default function ScrollingBody() {
+export default function ScrollingBody({ scrollingBodyWidth }) {
     const [categories, setCategories] = useState([
         {
             id: 1,
@@ -36,7 +36,7 @@ export default function ScrollingBody() {
         }
     ])
 
-    const CategoryList = categories.map((category) => <MusicCategories key={category.id} title={category.title} seeAllLink={category.seeAllLink}/>)
+    const CategoryList = categories.map((category) => <MusicCategories scrollingBodyWidth={scrollingBodyWidth} key={category.id} title={category.title} seeAllLink={category.seeAllLink}/>)
     return (
         <div className='scrolling-body'>
             {CategoryList}
