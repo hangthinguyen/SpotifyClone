@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.3a9891b2.css",
-    "main.js": "/static/js/main.4077a802.js",
-    "static/js/787.a142c313.chunk.js": "/static/js/787.a142c313.chunk.js",
-    "index.html": "/index.html",
-    "main.3a9891b2.css.map": "/static/css/main.3a9891b2.css.map",
-    "main.4077a802.js.map": "/static/js/main.4077a802.js.map",
-    "787.a142c313.chunk.js.map": "/static/js/787.a142c313.chunk.js.map"
+    "main.css": "/SpotifyClone/static/css/main.3a9891b2.css",
+    "main.js": "/SpotifyClone/static/js/main.64490f62.js",
+    "static/js/787.a142c313.chunk.js": "/SpotifyClone/static/js/787.a142c313.chunk.js",
+    "index.html": "/SpotifyClone/index.html",
+    "main.3a9891b2.css.map": "/SpotifyClone/static/css/main.3a9891b2.css.map",
+    "main.64490f62.js.map": "/SpotifyClone/static/js/main.64490f62.js.map",
+    "787.a142c313.chunk.js.map": "/SpotifyClone/static/js/787.a142c313.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a9891b2.css",
-    "static/js/main.4077a802.js"
+    "static/js/main.64490f62.js"
   ]
 }
